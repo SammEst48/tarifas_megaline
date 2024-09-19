@@ -6,11 +6,11 @@ Este proyecto fue desarrollado como parte de un Bootcamp de análisis de datos. 
 ## Dataset
 El análisis se basa en cinco tablas diferentes que contienen información sobre los usuarios, sus llamadas, mensajes de texto, uso de internet y las tarifas disponibles:
 
-- users: Información general de los clientes (ID, nombre, ciudad, plan, etc.).
-- calls: Detalles sobre las llamadas realizadas (duración, fecha, ID de usuario).
-- messages: Registros de los SMS enviados (fecha, ID de usuario).
-- internet: Datos sobre el uso de internet (volumen de datos, fecha, ID de usuario).
-- plans: Detalles sobre las tarifas de prepago (nombre de la tarifa, precios, límites de minutos, SMS y datos).
+- **users**: Información general de los clientes (ID, nombre, ciudad, plan, etc.).
+- **calls**: Detalles sobre las llamadas realizadas (duración, fecha, ID de usuario).
+- **messages**: Registros de los SMS enviados (fecha, ID de usuario).
+- **internet**: Datos sobre el uso de internet (volumen de datos, fecha, ID de usuario).
+- **plans**: Detalles sobre las tarifas de prepago (nombre de la tarifa, precios, límites de minutos, SMS y datos).
 
 ## Objetivo
 El departamento comercial de Megaline desea saber qué tarifa genera más ingresos para ajustar su presupuesto de publicidad. Para ello, analizamos el comportamiento de los clientes y determinamos, mediante pruebas estadísticas, qué plan aporta más ingresos en promedio.
