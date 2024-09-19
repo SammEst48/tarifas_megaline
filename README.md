@@ -23,18 +23,21 @@ El departamento comercial de Megaline desea saber qué tarifa genera más ingres
 * Seaborn
 * SciPy (para pruebas estadísticas)
 
-Clona este repositorio:
-bash
-Copiar código
-git clone https://github.com/tu-usuario/analisis-tarifas-megaline.git
-Navega al directorio del proyecto:
-bash
-Copiar código
-cd analisis-tarifas-megaline
-Ejecuta el notebook en Jupyter:
-bash
-Copiar código
-jupyter notebook analisis_megaline.ipynb
+## Instrucciones de Uso
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/SammEst48/tarifas-megaline.git
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd analisis-tarifas-megaline
+ 
+3. Ejecuta el notebook en Jupyter:
+   ```bash
+   jupyter notebook analisis_megaline.ipynb
+
 
 ## Conclusiones
-Este análisis preliminar revela que [incluye brevemente lo que encontraste: por ejemplo, cuál de los planes generó más ingresos y si las diferencias son estadísticamente significativas]. Estos resultados proporcionan insights clave que ayudarán a Megaline a optimizar su estrategia de marketing y asignación de presupuesto.
+Este análisis preliminar revela que el plan Ultimate genera más ingresos en promedio que el plan Surf y se encontró evidencia de que los ingresos promedio de los usuarios en el área de Nueva York-Nueva Jersey eran diferentes a los de otras regiones. Estos resultados proporcionan insights clave que ayudarán a Megaline a optimizar su estrategia de marketing y asignación de presupuesto.
+
