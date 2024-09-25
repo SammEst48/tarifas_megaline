@@ -1,43 +1,40 @@
-# Análisis de Tarifas de Megaline
+# 📊 Análisis de Tarifas de Megaline
 
 ## Descripción del Proyecto
-Este proyecto fue desarrollado como parte de un Bootcamp de análisis de datos. El objetivo es realizar un análisis preliminar del comportamiento de los clientes de Megaline, un operador de telecomunicaciones, para determinar cuál de sus dos tarifas de prepago (Surf o Ultimate) genera más ingresos. Utilizando una muestra de 500 clientes y datos de sus actividades en 2018, analizamos la cantidad de llamadas, mensajes y uso de datos para identificar patrones de uso y llevar a cabo pruebas estadísticas.
 
-## Dataset
-El análisis se basa en cinco tablas diferentes que contienen información sobre los usuarios, sus llamadas, mensajes de texto, uso de internet y las tarifas disponibles:
+Este proyecto tiene como objetivo analizar el comportamiento de los clientes de Megaline, una compañía de telecomunicaciones que ofrece dos tarifas de prepago: **Surf** y **Ultimate**. El departamento comercial de Megaline busca determinar qué tarifa genera más ingresos para optimizar su presupuesto publicitario. 
 
-- **users**: Información general de los clientes (ID, nombre, ciudad, plan, etc.).
-- **calls**: Detalles sobre las llamadas realizadas (duración, fecha, ID de usuario).
-- **messages**: Registros de los SMS enviados (fecha, ID de usuario).
-- **internet**: Datos sobre el uso de internet (volumen de datos, fecha, ID de usuario).
-- **plans**: Detalles sobre las tarifas de prepago (nombre de la tarifa, precios, límites de minutos, SMS y datos).
+Trabajaremos con un conjunto de datos que incluye información sobre 500 clientes, sus tarifas, y el uso que hicieron de llamadas, mensajes de texto y datos en el año 2018. Este análisis preliminar nos permitirá identificar cuál de los planes aporta más ingresos y cómo varía el uso de servicios entre las dos tarifas.
 
-## Objetivo
-El departamento comercial de Megaline desea saber qué tarifa genera más ingresos para ajustar su presupuesto de publicidad. Para ello, analizamos el comportamiento de los clientes y determinamos, mediante pruebas estadísticas, qué plan aporta más ingresos en promedio.
+Además, se realizarán pruebas estadísticas para comprobar si el ingreso promedio entre las tarifas y las regiones difiere significativamente.
 
-## Herramientas Utilizadas
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* SciPy (para pruebas estadísticas)
+## Objetivos
 
-## Instrucciones de Uso
+- Analizar el comportamiento de los clientes y su uso de llamadas, SMS y datos.
+- Calcular los ingresos generados por cada cliente.
+- Determinar, mediante análisis estadístico, cuál de las dos tarifas genera mayores ingresos en promedio.
+- Evaluar si los ingresos varían según la región geográfica.
 
-1. Clona este repositorio:
+## Estructura de los Datos
+
+Trabajaremos con cinco tablas:
+
+1. **users**: Información sobre los clientes (ID, nombre, ciudad, plan, etc.).
+2. **calls**: Datos sobre las llamadas (ID, fecha, duración, usuario).
+3. **messages**: Datos sobre los SMS (ID, fecha, usuario).
+4. **internet**: Uso de datos (ID, volumen de datos, fecha, usuario).
+5. **plans**: Detalles sobre las tarifas de prepago (nombre del plan, precios, límites, costos adicionales).
+
+## Requisitos
+
+- **Python 3.x**
+- **Librerías necesarias**: pandas, numpy, matplotlib, seaborn, scipy (para pruebas estadísticas)
+
+## Instrucciones para Ejecutar el Proyecto
+
+1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/SammEst48/tarifas-megaline.git
-
-2. Navega al directorio del proyecto:
-   ```bash
-   cd analisis-tarifas-megaline
- 
-3. Ejecuta el notebook en Jupyter:
-   ```bash
-   jupyter notebook analisis_megaline.ipynb
+   git clone https://github.com/tuusuario/megaline-tariff-analysis.git
 
 
-## Conclusiones
-Este análisis preliminar revela que el plan Ultimate genera más ingresos en promedio que el plan Surf y se encontró evidencia de que los ingresos promedio de los usuarios en el área de Nueva York-Nueva Jersey eran diferentes a los de otras regiones. Estos resultados proporcionan insights clave que ayudarán a Megaline a optimizar su estrategia de marketing y asignación de presupuesto.
 
