@@ -17,11 +17,11 @@ Además, se realizarán pruebas estadísticas para comprobar si el ingreso prome
 
 ## Estructura del proyecto
 
-### 1. Preparación de los Datos
-### 2. Cálculos por Usuario
-### 3. Análisis del Comportamiento del Cliente
-### 4. Pruebas de Hipótesis
-### 5. Conclusión
+1. Preparación de los Datos
+2. Cálculos por Usuario
+3. Análisis del Comportamiento del Cliente
+4. Pruebas de Hipótesis
+5. Conclusión
 
 ## Datasets
 
