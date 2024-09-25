@@ -37,11 +37,5 @@ Trabajaremos con cinco tablas:
 
 - pandas, numpy, matplotlib, seaborn, scipy (para pruebas estadísticas)
 
-## Instrucciones para Ejecutar el Proyecto
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/megaline-tariff-analysis.git
-
 
 
