@@ -15,7 +15,15 @@ Además, se realizarán pruebas estadísticas para comprobar si el ingreso prome
 - Determinar, mediante análisis estadístico, cuál de las dos tarifas genera mayores ingresos en promedio.
 - Evaluar si los ingresos varían según la región geográfica.
 
-## Estructura de los Datos
+## Estructura del proyecto
+
+### 1. Preparación de los Datos
+### 2. Cálculos por Usuario
+### 3. Análisis del Comportamiento del Cliente
+### 4. Pruebas de Hipótesis
+### 5. Conclusión
+
+## Datasets
 
 Trabajaremos con cinco tablas:
 
@@ -25,10 +33,9 @@ Trabajaremos con cinco tablas:
 4. **internet**: Uso de datos (ID, volumen de datos, fecha, usuario).
 5. **plans**: Detalles sobre las tarifas de prepago (nombre del plan, precios, límites, costos adicionales).
 
-## Requisitos
+## Librerías necesarias
 
-- **Python 3.x**
-- **Librerías necesarias**: pandas, numpy, matplotlib, seaborn, scipy (para pruebas estadísticas)
+- pandas, numpy, matplotlib, seaborn, scipy (para pruebas estadísticas)
 
 ## Instrucciones para Ejecutar el Proyecto
 
