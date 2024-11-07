@@ -39,4 +39,9 @@ Finalmente, se concluye que, aunque la media del ingreso generado por el plan Ul
 
 **Nota**: Este proyecto fue desarrollado como parte de mi formación en el bootcamp de Tripleten en el área de análisis de datos.
 
+## Visualizaciones
+![output](https://github.com/user-attachments/assets/f7540ec1-1483-44a6-b2de-3517e4ed9325)
+![surf](https://github.com/user-attachments/assets/8b3a7be1-b923-477b-8eaf-ce5f78d6c301)
+![ultimate](https://github.com/user-attachments/assets/5ba7ec84-ce1d-46a5-a3ab-fc0cf9131bf5)
+
 
