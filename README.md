@@ -15,14 +15,6 @@ Además, se realizarán pruebas estadísticas para comprobar si el ingreso prome
 - Determinar, mediante análisis estadístico, cuál de las dos tarifas genera mayores ingresos en promedio.
 - Evaluar si los ingresos varían según la región geográfica.
 
-## Estructura del proyecto
-
-1. Preparación de los Datos
-2. Cálculos por Usuario
-3. Análisis del Comportamiento del Cliente
-4. Pruebas de Hipótesis
-5. Conclusión
-
 ## Datasets
 
 Trabajaremos con cinco tablas:
@@ -33,9 +25,18 @@ Trabajaremos con cinco tablas:
 4. **internet**: Uso de datos (ID, volumen de datos, fecha, usuario).
 5. **plans**: Detalles sobre las tarifas de prepago (nombre del plan, precios, límites, costos adicionales).
 
-## Librerías necesarias
+## Herramientas utilizadas 
+- **Python**: pandas, numpy, math, scipy, matplotlib, seaborn.
+- **Jupyter Notebooks**: para análisis interactivo.
 
-- pandas, numpy, matplotlib, seaborn, scipy (para pruebas estadísticas)
+## Pasos de análisis
+- **Preparación de los datos**: se convertienten los datos a los tipos necesarios, se encuentra y corrigen errores, se calculan las métricas mensuales para cada usuario (llamadas, SMS, datos e ingresos).
+- **Analizar los datos**: se describe el comportamiento de los clientes en función de las métricas mensuales, calculando la media, varianza y desviación estándar, y visualizando las distribuciones.
+- **Probar las hipótesis**: se determina si hay diferencia significativa en los ingresos promedio entre los usuarios de las dos tarifas, y si el ingreso promedio de los usuarios del área de Nueva York-Nueva Jersey es diferente al de otras regiones.
 
+## Conclusiones
+Finalmente, se concluye que, aunque la media del ingreso generado por el plan Ultimate es ligeramente superior al plan Surf, no se encuentran diferencias significativas en el ingreso promedio entre los usuarios de ambos planes. Se concluye que la empresa podría optimizar sus estrategias de publicidad y marketing teniendo en cuenta el comportamiento del usuario en cada plan y el perfil de cada uno.
+
+**Nota**: Este proyecto fue desarrollado como parte de mi formación en el bootcamp de Tripleten en el área de análisis de datos.
 
 
